@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        body{
+            background-color: rgb(126, 126, 126);
+        }
+        header{
+            font-family: poppins;
+            text-align: center;
+            background-color: rgb(34, 34, 34);
+            padding: 5px;
+            color:white;
+            margin-bottom: 10px;
+        }
+        li{
+            list-style: none;
+            border: 1px solid rgb(255, 60, 0);
+            background-color: rgba(0, 0, 0, 0.443);
+            padding: 5px;
+            margin-bottom: 5px;
+            border-radius: 4px;
+            
+            
+            font-family: sans-serif;
+
+            
+            
+        }
+        li:hover{
+            box-shadow: 2px 2px 10px rgb(255, 89, 0);
+        }
+        a:hover{
+            color: orangered;
+            
+        }
+        a{
+            color: white;
+        }
+        section{
+            display: grid;
+            grid-template-columns: 3fr 9fr;
+        }
+        main{
+            margin-left: 50px;
+            height: 500px;
+            overflow: auto;
+            background-color: black;
+            color: white;
+            font-family: arial;
+            padding-left: 40px;
+            
+        }
+        a{
+            text-decoration: none;
+        }
+        .images img{
+            border-radius: 100px;
+            margin-right: 20px;
+        }
+        .images{
+            margin-top: 10px;
+        }
+        span a{
+            color: greenyellow;
+        }
+        .top{
+            background-color: rgb(79, 79, 79);
+            text-align: center;
+            color: white;
+            padding: 5px;
+            margin-left: -40px;
+        }
+        .top:hover{
+            box-shadow: 2px 2px 10px rgb(255, 89, 0);
+        }
+
+        .images img:hover{
+            box-shadow: 2px 2px 10px rgb(255, 89, 0);
+        }
+
+
+    </style>
+</head>
+<body>
+<header>
+    
+    <a href="#home">
+        <span class="bi-cart3">FashionCart</span>
+    </a>
+    <div class="images">
+        <span>
+            <a href="#kids">
+                <img src="/public/images/kids.jpeg" height="60px" width="60px">
+            </a>
+        </span>
+        <span>
+            <a href="#mens">
+                <img src="/public/images/mens.jpeg" height="60px" width="60px">
+            </a>
+        </span>
+        <span>
+            <a href="#womens">
+                <img src="/public/images/womens.jpg" height="60px" width="60px">
+            </a>
+        </span>
+    </div>
+    
+</header>
+<section>
+    <nav>
+        <ul>
+            <li>
+                <a href="#home">Home</a></li>
+            <li>
+                <a href="#kids">
+                    KidsFashion
+                </a>
+            </li>
+            <li>
+                <a href="#mens">
+                    MensFashion
+                </a>
+                
+            </li>
+            <li>
+                <a href="#womens">
+                    WomensFashion
+                </a>
+                
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h2 id="home">Home</h2>
+        <p>Lorem ipsum dolor sit amet,<span><a href="#iphones">MOBILE!</a></span> consectetur adipisicing elit. Quas, architecto cum! Quas inventore magnam tempore, quo, temporibus vitae cupiditate eos, perspiciatis officiis est aliquam! Tenetur accusamus porro hic consequuntur, deserunt cumque? Expedita doloribus incidunt, reiciendis perferendis veritatis debitis culpa vero amet unde fuga blanditiis perspiciatis nemo maiores recusandae mollitia vel animi dicta labore fugit rem optio maxime deleniti fugiat! Reprehenderit ad explicabo repellendus, veritatis, beatae error recusandae voluptate culpa iusto consequuntur autem nam aspernatur consequatur porro hic inventore pariatur est et. Similique eum provident dignissimos hic omnis sit nihil quos quis, voluptatibus fugiat est consequatur optio repellat. Doloribus, velit aperiam.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem officiis necessitatibus porro deserunt labore commodi expedita rerum? Sed dolore quibusdam nulla omnis, facilis eos fugiat perferendis consequuntur, neque natus libero officia id eum sequi! Pariatur eligendi accusamus itaque tempore! Cupiditate sapiente in tempore distinctio, impedit vitae facilis molestias asperiores accusamus odio quo illum quos, laudantium corporis eum necessitatibus maiores, rem vero qui error? Et, repudiandae nemo? Nostrum neque blanditiis reprehenderit dicta nihil est, officiis facere autem dignissimos eveniet culpa eligendi dolorem ipsum reiciendis vero, possimus ipsa laudantium sint expedita, odit nemo tenetur. Id perferendis, ab aliquam aliquid distinctio inventore ipsum!</p>
+        <h2 id="kids" >KidsFashion</h2>
+        <img src="/public/images/kids.jpeg" height="200" width="250">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, architecto cum! Quas inventore magnam tempore, quo, temporibus vitae cupiditate eos, perspiciatis officiis est aliquam! Tenetur accusamus porro hic consequuntur, deserunt cumque? Expedita doloribus incidunt, reiciendis perferendis veritatis debitis culpa vero amet unde fuga blanditiis perspiciatis nemo maiores recusandae mollitia vel animi dicta labore fugit rem optio maxime deleniti fugiat! Reprehenderit ad explicabo repellendus, veritatis, beatae error recusandae voluptate culpa iusto consequuntur autem nam aspernatur consequatur porro hic inventore pariatur est et. Similique eum provident dignissimos hic omnis sit nihil quos quis, voluptatibus fugiat est consequatur optio repellat. Doloribus, velit aperiam.</p>
+        <img src="/public/images/iphone.jpeg" height="200" width="250" id="iphones">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem officiis necessitatibus porro deserunt labore commodi expedita rerum? Sed dolore quibusdam nulla omnis, facilis eos fugiat perferendis consequuntur, neque natus libero officia id eum sequi! Pariatur eligendi accusamus itaque tempore! Cupiditate sapiente in tempore distinctio, impedit vitae facilis molestias asperiores accusamus odio quo illum quos, laudantium corporis eum necessitatibus maiores, rem vero qui error? Et, repudiandae nemo? Nostrum neque blanditiis reprehenderit dicta nihil est, officiis facere autem dignissimos eveniet culpa eligendi dolorem ipsum reiciendis vero, possimus ipsa laudantium sint expedita, odit nemo tenetur. Id perferendis, ab aliquam aliquid distinctio inventore ipsum!</p>
+        <h2 id="mens" >MensFashion</h2>
+        <img src="/public/images/mens.jpeg" height="200" width="250">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, architecto cum! Quas inventore magnam tempore, quo, temporibus vitae cupiditate eos, perspiciatis officiis est aliquam! Tenetur accusamus porro hic consequuntur, deserunt cumque? Expedita doloribus incidunt, reiciendis perferendis veritatis debitis culpa vero amet unde fuga blanditiis perspiciatis nemo maiores recusandae mollitia vel animi dicta labore fugit rem optio maxime deleniti fugiat! Reprehenderit ad explicabo repellendus, veritatis, beatae error recusandae voluptate culpa iusto consequuntur autem nam aspernatur consequatur porro hic inventore pariatur est et. Similique eum provident dignissimos hic omnis sit nihil quos quis, voluptatibus fugiat est consequatur optio repellat. Doloribus, velit aperiam.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem officiis necessitatibus porro deserunt labore commodi expedita rerum? Sed dolore quibusdam nulla omnis, facilis eos fugiat perferendis consequuntur, neque natus libero officia id eum sequi! Pariatur eligendi accusamus itaque tempore! Cupiditate sapiente in tempore distinctio, impedit vitae facilis molestias asperiores accusamus odio quo illum quos, laudantium corporis eum necessitatibus maiores, rem vero qui error? Et, repudiandae nemo? Nostrum neque blanditiis reprehenderit dicta nihil est, officiis facere autem dignissimos eveniet culpa eligendi dolorem ipsum reiciendis vero, possimus ipsa laudantium sint expedita, odit nemo tenetur. Id perferendis, ab aliquam aliquid distinctio inventore ipsum!</p>
+        <a href="#home">
+            <div class="top">Go To Top</div>
+        </a>
+        
+        <h2 id="womens">WomensFashion</h2>
+        <img  src="/public/images/womens.jpg" height="200" width="250">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, architecto cum! Quas inventore magnam tempore, quo, temporibus vitae cupiditate eos, perspiciatis officiis est aliquam! Tenetur accusamus porro hic consequuntur, deserunt cumque? Expedita doloribus incidunt, reiciendis perferendis veritatis debitis culpa vero amet unde fuga blanditiis perspiciatis nemo maiores recusandae mollitia vel animi dicta labore fugit rem optio maxime deleniti fugiat! Reprehenderit ad explicabo repellendus, veritatis, beatae error recusandae voluptate culpa iusto consequuntur autem nam aspernatur consequatur porro hic inventore pariatur est et. Similique eum provident dignissimos hic omnis sit nihil quos quis, voluptatibus fugiat est consequatur optio repellat. Doloribus, velit aperiam.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem officiis necessitatibus porro deserunt labore commodi expedita rerum? Sed dolore quibusdam nulla omnis, facilis eos fugiat perferendis consequuntur, neque natus libero officia id eum sequi! Pariatur eligendi accusamus itaque tempore! Cupiditate sapiente in tempore distinctio, impedit vitae facilis molestias asperiores accusamus odio quo illum quos, laudantium corporis eum necessitatibus maiores, rem vero qui error? Et, repudiandae nemo? Nostrum neque blanditiis reprehenderit dicta nihil est, officiis facere autem dignissimos eveniet culpa eligendi dolorem ipsum reiciendis vero, possimus ipsa laudantium sint expedita, odit nemo tenetur. Id perferendis, ab aliquam aliquid distinctio inventore ipsum!</p>
+
+    </main>
+</section>
+</body>
+</html>

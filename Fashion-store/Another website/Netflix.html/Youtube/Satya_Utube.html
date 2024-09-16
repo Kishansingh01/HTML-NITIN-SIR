@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <style>
+        header{
+            display: flex;
+            justify-content: space-between;
+        }
+        .search-area{
+            border-radius: 20px;
+            border: 1px solid black;
+            width: 400px;
+            display: flex; 
+            align-items: center; 
+            padding: 5px;
+            justify-content: space-between;
+        }
+        .search-bar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .bi-mic-fill{
+            padding: 5px;
+            width: 17px;
+            border-radius: 15px;
+            align-items: center;
+            background-color: rgb(242,242,242);
+            margin-left: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: gray;
+        }
+
+       
+        section{
+            display: grid;
+            grid-template-columns: 2fr 10fr;
+        }
+        ul{
+            list-style: none;
+            margin-left: -20px;
+        }
+        li{
+            margin-left: 10px;
+            padding: 5px;
+            margin-bottom: 20px;
+        }
+        li span{
+            margin-right: 20px;
+        }
+        a b{color: black;}
+        article{
+            display: grid;
+            grid-template-columns: 2fr 10fr;
+        }
+        article div img{
+            border-radius: 60%;
+            padding: 20px;
+        }
+        .banner{
+            border-radius: 20px;
+        }
+        .channel-title{
+            margin-left: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: gray;
+        }
+        .channel-title div{
+            margin-top: 15px;
+        }
+        .channel-name{
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+        }
+        .link{color: blue;}
+        .subscribed{
+            padding: 5px;
+            background-color: rgb(242,242,242);
+            color: black;
+            width: 150px;
+            border-radius: 20px;
+            text-align: center;
+
+        }
+        .subscribed span{
+            margin-left: 5px;
+        }
+        .frame-nav{
+            display: flex;
+            border-bottom: 1px black solid;
+        }
+        .for-you{
+            display: flex;
+            gap: 10px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid black;
+            
+        }
+        .profile-logo{
+            border-radius: 40px;
+           
+        }
+        .bi-camera-video{
+            margin-left: 20px;
+        }
+        .bi-bell{
+            margin-left: 20px;
+        }
+        .profile-logo{
+            margin-left: 20px;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <header>
+        <div>
+            <span class="bi bi-list"></span>
+            <span>
+                <img src="../public/image/Screenshot 2024-08-12 101155.png">
+            </span>
+        </div>
+        <div>
+
+        </div>
+        <div class="search-bar">
+            <div class="search-area">
+                <span>Search</span>
+                <span class="bi bi-search"></span>
+            </div>
+            <span class="bi bi-mic-fill"></span>
+        </div>
+        <div class="user-area">
+            <span class="bi bi-camera-video"></span>
+            <span class="bi bi-bell"></span>
+            <img  class="profile-logo" src="../public/image/profile-logo.jpg" height="18px" width="20px">
+        </div>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><span class="bi bi-house"></span>Home</li>
+                <li> <span class="bi bi-play-circle"></span>Shorts</li>
+                <li><span class="bi bi-collection-play"></span>Subscriptions</li>
+            </ul>
+        </nav>
+        <main>
+            <div>
+                <img class="banner" src="../public/image/youtube_banner.jpg" width="100%">
+            </div>
+            
+
+            <article>
+                <div class="chnl-logo">
+                    <img src="../public/image/pwioi logo.jpg">
+                </div>
+                <div class="channel-title">
+                    <div class="channel-name">PW Institute of Innovation
+                    </div>
+                    <div>
+                        @PW-IOI • 7.23K subscribers • 157 videos
+
+                    </div>
+                    <div>
+                        <a href="javascript:void()">Shaping Futures, Empowering Innovators! 🚀 <b>...more</b></a>
+                        
+                    </div>
+                    <div><a  class="link"   href="javascript:void()">pwioi.com/?utm_source=Youtube&utm_medium=Social&utm_campaign=Organic
+                        <b>and 8 more links</b></a></div>
+                    <div class="subscribed"><span class="bi bi-bell"></span>
+                    <span>Subscribed</span>
+                <span class="bi bi-chevron-down"></span></div>
+                </div>
+            </article>
+
+
+
+            <nav>
+                <ul class="frame-nav">
+                    <li>Home</li>
+                    <li>Videos</li>
+                    <li>Shorts</li>
+                    <li>Playlists</li>
+                    <li>Community</li>
+                    <li class="bi bi-search"></li>
+                </ul>
+            </nav>
+            <article>
+            <div>
+                <h2>For you</h2>
+                <div class="for-you">
+                    <div>
+                <iframe width="250" height="150" src="https://www.youtube.com/embed/tGrgMHhnUCM?si=5yfvBZ1O8fdCFxcs" title="YouTube video player" controls=0></iframe>  
+                <b>Future and Fusion Event | Vishwas Day Celebration</b> <br> 1.4K views * 5 months ago
+                </div>
+                <div>
+                <iframe width="250" height="150" src="https://www.youtube.com/embed/2sWoNJcJfPc?si=7lIpUssufVQkIghq" title="YouTube video player"></iframe> 
+                <b>PW IOI AD WARS | The Mentor Discussion Session with the Product Manager of Cricbuzz</b><br>360 Views * 6 days ago
+                </div>
+                <div>
+                <iframe width="250" height="150" src="https://www.youtube.com/embed/MEyp8Qj0rGI?si=WRaNYRcjhgYUgPdE" title="YouTube video player"></iframe>
+                <b>
+                    Day 04 - INDUSTRY MENTORS CONNECT | Part 02 | PW IOI School of Technology
+                </b><br>755 Views * 9 months ago
+                </div>
+                <div>
+                <iframe width="250" height="150" src="https://www.youtube.com/embed/UnCrj9xJzAU?si=i7BQ5rmiPhDUeMyl" title="YouTube video player"></iframe> 
+                <b>What is PW IOI</b><br>22k views * 3 months ago
+                </div>
+                </div>   
+            </div>
+            </article>
+        </main>
+
+           
+
+    </section>
+</body>
+</html>

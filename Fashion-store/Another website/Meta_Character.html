@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    Question:<input type="text"pattern="colou?r" placeholder="color/colour" name="texttest"><br><br>
+    artices:<input type="text" pattern="colou*r" placeholder="color/colour"name="texttest"><br><br>
+    Plus1:<input type="text" pattern="colou+r" placeholder="color/colour"name="texttest"><br><br>
+    plus:<input type="text" pattern="colou+r" placeholder="color.colour"name="texttest"><br><br>
+    dot:<input type="text" pattern="colou.r" placeholder="color.colour"name="texttest"><br><br>
+    Escaping:<input type="text" pattern="colou/r" placeholder="color.colour"name="texttest"><br><br>
+
+    Escaping:<input type="text" pattern="gmail.com" placeholder="color.colour"name="texttest"><br><br>
+
+    Escaping 3:<input type="text" pattern="+@gmail/.com" placeholder="color.colour"name="texttest"><br><br>
+    Logical Or <input type="text" pattern="red|Green|yellow" placeholder="color.colour"name="texttest"><br><br>
+    Square brackets <input type="text" pattern="[a-z]+[0-9]+" placeholder="color.colour"name="texttest"><br><br>
+    Ignore capitalized<input type="text" pattern="/i" placeholder="color.colour"name="texttest"><br><br>
+    space<input type="text" pattern="ran/s" placeholder="color.colour"name="texttest"><br><br>
+
+
+
+
+    <button>Submit</button>
+</form> 
+
+
+   
+</body>
+</html>
